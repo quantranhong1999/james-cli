@@ -10,9 +10,10 @@ Webadmin command-line interface is an upcoming replacement for the outdated, sec
 
 General syntax to run the script
 
-        
-        $ ./james_cli [OPTION] ENTITY ACTION {ARGUMENT}
-        
+```   
+$ ./james_cli [OPTION] ENTITY ACTION {ARGUMENT}
+```
+
 where
 
     OPTION: optional parameter when running the script,
