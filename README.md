@@ -36,7 +36,7 @@ Note: the command line ```$ ./james_cli``` will be documente as {cli}.
 
 ## Navigation menu
 
-- [Manage Domains]()
+- [Manage Domains](manage-domains)
    - [Create a domain]()
    - [Delete a domain]()
    - [Check if a domain exists]()
