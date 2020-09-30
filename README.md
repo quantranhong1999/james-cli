@@ -36,17 +36,17 @@ Note: the command line ```$ ./james_cli``` will be documente as {cli}.
 
 ## Navigation menu
 
-- [Manage Domains](manage-domains)
-   - [Create a domain]()
-   - [Delete a domain]()
-   - [Check if a domain exists]()
-   - [Get the list of domains]()
-- [Manage Users]() 
-   - [Create a user]()
-   - [Test a user existence]()
-   - [Delete a user]()
-   - [Get users list]()
-   - [Update a user password]()
+- [Manage Domains](#manage-domains)
+   - [Create a domain](#create-a-domain)
+   - [Delete a domain](#delete-a-domain)
+   - [Check if a domain exists](#check-if-a-domain-exists)
+   - [Get the list of domains](#get-the-list-of-domains)
+- [Manage Users](#manage-users) 
+   - [Create a user](#create-a-user)
+   - [Test a user existence](#test-a-user-existence)
+   - [Delete a user](#delete-a-user)
+   - [Get users list](#get-users-list)
+   - [Update a user password](#update-a-user-password)
 
 ## Manage Domains
 
