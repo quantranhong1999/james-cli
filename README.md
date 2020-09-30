@@ -51,52 +51,69 @@ Note: the command line ```$ ./james_cli``` will be documente as {cli}.
 ## Manage Domains
 
 ### Create a domain
-
+Add a domain to the domain list.
 ```
 {cli} domain create <domainToBeCreated>
 ```
+Resource name domainToBeCreated:
+
+- can not be null or empty
+- can not contain ‘@’
+- can not be more than 255 characters
+- can not contain ‘/’
 
 ### Delete a domain
 
+Remove a domain from the domain list.
 ```
 {cli} domain delete <domainToBeDeleted>
 ```
+Note: Deletion of an auto-detected domain, default domain or of an auto-detected ip is not supported. We encourage you instead to review your [domain list configuration](https://james.apache.org/server/config-domainlist.html).
 
 ### Check if a domain exists
-
+Check whether a domain exists on the domain list or not.
 ```
 {cli} domain exist <domainToBeChecked>
 ```
 
 ### Get the list of domains
-
+Show all domains' name on the list.
 ```
 {cli} domain list
 ```
 
-// Domain Alias
+
 
 ## Manage Users
 
 ### Create a user
 
+Add an user to the user list.
 ```
 {cli} user create <username> <password>
 ```
+Resource name <username> representing valid users, hence it should match the criteria at [User Repositories documentation](https://james.apache.org/server/config-users.html)
+
+Note: if the user exists already, its password will be updated.
 
 ### Test a user existence
 
+Check whether a user exists on the user list or not.
 ```
 {cli} user exist <username>
 ```
+Resource name <username> representing valid users, hence it should match the criteria at [User Repositories documentation](https://james.apache.org/server/config-users.html)
 
 ### Delete a user
 
+Remove a user from the user list.
 ```
 {cli} user delete <username>
 ```
 
 ### Get users list
+
+Show all users' name on the list.
 
 ```
 {cli} user list
