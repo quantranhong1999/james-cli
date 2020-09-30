@@ -1,2 +1,2 @@
-# james-cli
-A WebAdmin based CLI for Apache James
+# A WebAdmin based CLI for Apache James
+
