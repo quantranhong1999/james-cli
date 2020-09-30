@@ -33,7 +33,7 @@ The above command lists all domain names available on domain route at address ht
 It does not require any argument to execute. Options --url and --port are optional. Without them, the default value is http://127.0.0.0:8000.
 As for other commands, arguments might be required after the sub-command (ACTION such as list, add and remove).
 
-Note: the command line ```$ ./james_cli``` will be documente as {cli}.
+Note: the command line ```$ ./james_cli``` will be shorten as {cli} from here.
 
 ## Navigation menu
 
@@ -43,11 +43,11 @@ Note: the command line ```$ ./james_cli``` will be documente as {cli}.
    - [Check if a domain exists](#check-if-a-domain-exists)
    - [Get the list of domains](#get-the-list-of-domains)
 - [Manage Users](#manage-users) 
-   - [Create a user](#create-a-user)
-   - [Test a user existence](#test-a-user-existence)
-   - [Delete a user](#delete-a-user)
+   - [Create an user](#create-a-user)
+   - [Test an user existence](#test-a-user-existence)
+   - [Delete an user](#delete-a-user)
    - [Get users list](#get-users-list)
-   - [Update a user password](#update-a-user-password)
+   - [Update an user password](#update-a-user-password)
 
 ## Manage Domains
 
@@ -56,7 +56,7 @@ Add a domain to the domain list.
 ```
 {cli} domain create <domainToBeCreated>
 ```
-Resource name domainToBeCreated:
+Resource name **domainToBeCreated**:
 
 - can not be null or empty
 - can not contain ‘@’
@@ -87,7 +87,7 @@ Show all domains' name on the list.
 
 ## Manage Users
 
-### Create a user
+### Create an user
 
 Add an user to the user list.
 ```
@@ -97,17 +97,17 @@ Resource name <username> representing valid users, hence it should match the cri
 
 Note: if the user exists already, its password will be updated.
 
-### Test a user existence
+### Test an user existence
 
-Check whether a user exists on the user list or not.
+Check whether an user exists on the user list or not.
 ```
 {cli} user exist <username>
 ```
 Resource name <username> representing valid users, hence it should match the criteria at [User Repositories documentation](https://james.apache.org/server/config-users.html)
 
-### Delete a user
+### Delete an user
 
-Remove a user from the user list.
+Remove an user from the user list.
 ```
 {cli} user delete <username>
 ```
@@ -120,8 +120,8 @@ Show all users' name on the list.
 {cli} user list
 ```
 
-### Update a user password
-Same than Create, but a user need to exist.
+### Update an user password
+Same than Create, but an user need to exist.
 
 If the user do not exist, then it will be created.
 
